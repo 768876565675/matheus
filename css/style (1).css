@@ -10,7 +10,7 @@ body {
 h1 {
     color: rgb(252, 244, 246);
     text-align: center;
-    border-bottom: 2px solid #add;
+    border-bottom: 2px solid rgb(188, 226, 226);
     padding-bottom: 10px;
 
 }
@@ -21,9 +21,6 @@ p{
     text-aling: justify
 
 }
-    h3 {
-        text-aling:center
-    }
 
 /* Estilo geral */
 body {
@@ -31,11 +28,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #3b3639;
-    color: #d1c4c4;
+    color: #f6fdff;
 }
 
 header {
-    background-color: #4e494c;
+    background-color: #0e0309;
     color: rgb(235, 227, 227);
     text-align: center;
     padding: 20px;
@@ -55,9 +52,9 @@ h1, h2 {
 .intro {
     text-align: center;
     margin-bottom: 30px;
-    background: #585353;
+    background: #000000;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 34px;
 }
 
 .category {
@@ -139,12 +136,21 @@ form button:hover {
     background-color: #45a049;
 }
 
-footer {
-    background-color: #333;
-    color: rgb(248, 241, 241);
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e4e4e4;
+	}
+
+form input {
+		padding: 10px;
+		margin-bottom: 15px;
+		border: 1px solid #928181;
+		border-radius: 5px;
+		background-color: #00000042;
+		color: #ebdede;
+		transition: border-color 0.3s;
 }
 
 a {
@@ -155,3 +161,52 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+body {
+    /* Definir a imagem de fundo */
+    background-image: url('https://cdn.wallpapersafari.com/0/22/9YoEkB.jpg');
+    /* Tornar a imagem de fundo adaptável à tela */
+    background-size: cover;
+    /* Manter a imagem fixa quando a página rolar */
+    background-attachment: fixed;
+    /* Garantir que a imagem ocupe todo o fundo */
+    background-position: center center;
+    /* Definir a cor de fundo para áreas sem imagem */
+    background-color: #f0f0f0;
+    /* Garantir que o corpo tenha altura suficiente para cobrir a tela */
+    height: 100vh;
+    margin: 0;
+}
+form button {
+    padding: 10px;
+    background-color: #128b4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+footer {
+    background-color: #121212;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
+
+
