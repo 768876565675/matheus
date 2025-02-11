@@ -1,90 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
- }
- body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #202020;
-    color: #e4e4e4;
-    transition: all 0.3s ease-in-out;
+    background-color: #3b3639;
+    color: #f6fdff;
 }
 
 header {
-    background-color: #121212;
-    color: #f5f5f5;
+    background-color: #0e0309;
+    color: rgb(235, 227, 227);
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-h1, h2 {
-    margin: 0;
-    font-weight: 600;
-    text-align: center;
-    transition: color 0.3s ease-in-out;
-}
-
-h1:hover, h2:hover {
-    color: #b89e75;
-}
-.container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.intro {
-    text-align: center;
-    margin-bottom: 30px;
-    background: #835d5d;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-.category {
-    margin-bottom: 20px;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-}
-.form-section {
-		background: #2c2c2c;
-		padding: 20px;
-		border: 1px solid #444;
-		border-radius: 8px;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-		max-width: 400px;
-		margin: 20px auto;
-		text-align: center;
-	}
-
-form {
-    display: flex;
-    flex-direction: column;
 }
 form label {
     margin-bottom: 5px;
     font-weight: bold;
-    color: #e4e4e4;
-	}
+}
 
 form input {
-		padding: 10px;
-		margin-bottom: 15px;
-		border: 1px solid #d8bdbd;
-		border-radius: 5px;
-		background-color: #333;
-		color: #e4e4e4;
-		transition: border-color 0.3s;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b7beb2;
+    border-radius: 5px;
+    background-color: #e0e0e0d7;
+    color: #ebdede;
+    transition: border-color 0.3s;
+}
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(248, 241, 241);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }

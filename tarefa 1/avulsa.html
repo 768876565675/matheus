@@ -1,148 +1,40 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Filmes</title>
-    <link rel="stylesheet" href="arquivo.css">
+<html>
+ <head>
+  <link rel="stylesheet" href="arquivo.css">
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Catálogo de Filmes</h1>
-        <p>Explore filmes de Guerras!</p>
-    </header>
+  <section class="abcd"><button onclick="exibirmensagem()">clique aqui</button>
 
-    <div class="container">
-        <section class="intro">
-            <h2>Sobre o Catálogo</h2>
-            <p>Descubra os filmes épicos sobre guerra que transcendem o comum, abordando a Primeira Guerra e a Segunda Guerra Mundial.</p><br>
-        </section>
-
-        <section class="category">
-            <h2>Filmes 1</h2>
-            <div class="grid">
-                <div class="card">
-                 <a href="Arroz.html" target="_blank">
-                    <img src="https://www.ligadoemviagem.com.br/wp-content/uploads/2020/01/capa-critica-1917-sam-mendes.jpg" alt="Filme 1">
-                </a>
-                    <h3>1917</h3>
-                    <p>Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens aparentemente impossíveis de cumprir. Em uma corrida contra o tempo, eles precisam atravessar o território inimigo e entregar uma mensagem que pode salvar 1.600 de seus companheiros!</p><br>
-                </div>
-                <div class="card">
-                  <a href="O Resgate.html" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/a/ac/Saving_Private_Ryan_poster.jpg" alt="Filme 2">
-                   </a>
-
-                    <h3>O Resgate do Soldado Ryan</h3>
-                    <p>Durante a Segunda Guerra Mundial, o capitão John Miller leva seus homens para trás das linhas inimigas para encontrar o soldado James Ryan, cujos três irmãos foram mortos em combate. Cercados pela brutal realidade da guerra, cada homem embarca em uma jornada pessoal e descobre sua própria força para triunfar sobre um futuro incerto com honra, decência e coragem.</p><br>
-                </div>
-            </div>
-        </section>
-
-        <section class="category">
-          
-            <div class="grid">
-                <div class="card">
-                  <a href="Corações de Ferro.html" target="_blank">
-                   </a>
-                    <img src="https://br.web.img3.acsta.net/pictures/16/11/21/15/29/457312.jpg" alt="Filme 3">
-                    <h3>Até o Último Homem</h3>
-                    <p>Acompanhe a história de Desmond T. Doss, um médico do exército americano que, durante a Segunda Guerra Mundial, se recusa a pegar em armas. Durante a Batalha de Okinawa ele trabalha na ala médica e salva cerca de 75 homens.</p><br>
-                </div>
-                <div class="card">
-                    <img src="https://br.web.img3.acsta.net/pictures/14/10/28/21/28/104479.jpg" alt="Filme 4">
-                    <h3>Corações de Ferro</h3>
-                    <p>Durante o final da Segunda Guerra Mundial, o sargento Don Wardaddy lidera um grupo de apenas cinco soldados norte-americanos encarregado de aniquilar os nazista.</p><br>
-                </div>
-            </div>
-        </section>
-
-        <section class="form-section">
-            <h2>Cadastre-se</h2>
-          
-            <form>
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" placeholder="Seu nome" required>
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-
-                <label for=" Filme Favorito">Qual é o seu Filme Favorito:</label>
-                <input type="Filme Favorito" id="Filme Favorito" name="Filme Favorito" placeholder="Filme Favorito" required>
-               <!---->
-               Senha <input type="password" name="senha">
-              <input type="checkbox" id="fveiculo" name="fveiculo" value="motocicleta">MSM<br>
-
-
-
-               
-               <form action="#">
-                  <label for="fobservacoes">Observações:</label><br>
-                  <textarea type="textarea" id="fobservacoes" name="fobservacoes" rows="2"></textarea>
-                  
-               <label for="ftel">Telefnone:</label><br>
-               <input type="tel" id="ftel" name="ftel" value="( ) 0000-0000"><br>
-
-               <label for="fsearch">Buscar:</label><br>
-               <input type="search" id="fbuscar" name="fbuscar" value="Buscar"><br>
-
-               <label for="femail">Email:</label><br>
-              <input type="email" id="femail" name="femail" value="email@site.com"><br>
-
-               <label for="furl">Url:</label><br>
-               <input type="url" id="furl" name="furl" value="http://www.site.com.br"><br>
-               
-               <label for="fdate">Data de Nascimento:</label><br>
-                <input type="datetime" id="fdata" name="fdata" placeholder="__/__/____"><br>
-
-               <label for="fdatetime-local">Data de Cadastro:</label><br>
-               <input type="datetime-local" id="fdatetime-local" name="fdatetime-local" placeholder="dd/mm/aaaa --:--:00"><br>
-
-               <label for="fweek">Semana:</label><br>
-              <input type="week" id="fweek" name="fweek" placeholder=""><br>
-
-              <label for="frange">Volume:</label><br>
-              <input type="range" id="frange" name="frange" placeholder=""><br>
-              
-
-              <video width="320" heigth="420" controls>
-                  <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                  Seu navegar não suporta o elemento de video.
-              </video>
-              
-                
-                <select>
-                  <optgroup label="Grupo 1">
-                  <option>Opção 1.1</option>
-                  </optgroup>
-                  <optgroup label="Grupo 2">
-                  <option>Opção 2.1</option>
-                  <option>Opção 2.2</option>
-                  </optgroup>
-                  <optgroup label="Grupo 3" disabled>
-                  <option>Opção 3.1</option>
-                  <option>Opção 3.2</option>
-                  <option>Opção 3.3</option>
-                  </optgroup>
-                  </select>
-                  
-                <button type="submit">Cadastrar</button>
-            </form>
-            <div id="user-list">
-              <h3>Usuários Cadastrados:</h3>
-              <ul></ul>
-  </div>
-            <script src="script.js"></script>
-            
-        </section>
+    <button onclick="alert('botão clicado')">clique aqui</button>
+        
+        <h1>Calculadora de Soma</h1>
+        <form>
+          <label for="numero1">Número 1:</label>
+          <input type="number" id="numero1" name="numero1"><br><br>
       
+          <label for="numero2">Número 2:</label>
+          <input type="number" id="numero2" name="numero2"><br><br>
       
-    </div>
+          <button type="button" onclick="somar()">Somar</button>
+        </form>
+      
+        <p>Resultado: <span id="resultado"></span></p>
+      
+        <script>
+          function somar() {
+            let num1 = parseFloat(document.getElementById("numero1").value);
+            let num2 = parseFloat(document.getElementById("numero2").value);
+            let resultado = num1 + num2;
+      
+            document.getElementById("resultado").textContent = resultado;
+          }
+        </script>
+        </section> 
+      
+   
 
-    <footer>
-        <p>Catálogo de Mídias &copy; 2024. Todos os direitos reservados.</p>
-    </footer>
 </body>
-</html>
+</html>   

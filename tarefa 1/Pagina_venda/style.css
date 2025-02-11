@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#produtos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax 200px, 1fr);
+    gap: 20px;
+}
+
+.produtos {
+    width: 200px;
+    margin: 12px;
+    border: 1px solid rgb(214, 208, 204);
+    padding: 10px;
+
+}
+.produto image{
+    width: 10px;
+}
+
+#carrinho {
+    list-style: none;
+    padding: 0%;
+}
+
+#carrinho li {
+    margin-bottom: 5px;
+}
